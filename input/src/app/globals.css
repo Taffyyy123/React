@@ -1,0 +1,55 @@
+.countries {
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  width: 400px;
+  height: 250px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.compContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  gap: 20px;
+}
+.name {
+  font-size: 32px;
+  font-weight: 900;
+}
+.btn {
+  background-color: white;
+  width: 400px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px;
+}
+.input {
+  width: 393px;
+  height: 35px;
+}
+.coatOfArms {
+  width: 150px;
+  height: 150px;
+}
+.text {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.dynamic-text {
+  font-weight: 300;
+  font-size: 20px;
+}
+.btn-container {
+  overflow: scroll;
+  height: 100vh;
+}
